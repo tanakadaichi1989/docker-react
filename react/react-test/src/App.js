@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import LoginButton from './login';
+import LogoutButton from './logout';
+import Profile from './profile';
 
 function App() {
   return (
@@ -17,6 +20,9 @@ function App() {
         >
           Learn React
         </a>
+        <LoginButton></LoginButton>
+        <LogoutButton></LogoutButton>
+        <Profile></Profile>
       </header>
     </div>
   );
