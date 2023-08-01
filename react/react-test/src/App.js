@@ -20,9 +20,12 @@ function App() {
         >
           Learn React
         </a>
+        <br></br>
         <LoginButton></LoginButton>
         <LogoutButton></LogoutButton>
+        <br></br>
         <Profile></Profile>
+        <br></br>
       </header>
     </div>
   );
